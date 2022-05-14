@@ -3988,6 +3988,29 @@ input, select, textarea {
 		align-items: center;
 		/* background-color: lightblue; */
 	}
+	.title{
+		/* width: 100%; */
+		/* text-align: center; */
+		margin-top: 50px;
+		font-size: 32px;
+	}
+	.subject{
+		font-size: 18px;
+		font-weight: 800;
+		margin-top: 10px;
+	}
+	.li-shell{
+		list-style: none;
+	}
+	.contents{
+		margin-top: 10px;
+		font-size: 14px;
+		color:darkgray
+	}
+	.show-more{
+		margin-bottom: 50px;
+		border-radius: 10px;
+	}
 	.form-text{
 		color: gray;
 	}
