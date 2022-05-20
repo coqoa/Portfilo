@@ -42,9 +42,9 @@
 					padding: 10px 15px;
 					display: inline-block;
 					text-decoration: none!important;
-					color: rgba($white, .7);
+					color: rgba(black, .7);
 					&:hover {
-						color: $white;
+						color: black;
 						
 					}
 				}
@@ -52,8 +52,8 @@
 				&.cta-button {
 					a {
 						padding: 6px 20px;
-						border: 2px solid rgba($white, .1);
-						color: $white;
+						border: 2px solid rgba(black, .1);
+						color: black;
 						border-radius: 30px;
 						&:hover {
 							color: $black;
