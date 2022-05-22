@@ -9865,13 +9865,16 @@ a {
   padding-left: 1px;
   padding-right: 1px;
 }
+.h-light-black{
+  color: black;
+}
 .h-black{
   font-weight: bold;
   color: black;
 }
 .h-pomotodo{
-  font-weight: bold;
-  color:black;
+  /* font-weight: bold; */
+  color:#595959
 }
 .h-pomotodo:hover{
   color:lightcoral;
