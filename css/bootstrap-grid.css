@@ -39,7 +39,7 @@
     max-width: 1320px; } }
 
 .row {
-  --bs-gutter-x: 1.5rem;
+  /* --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,7 +48,8 @@
   flex-wrap: wrap;
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
-  margin-left: calc(var(--bs-gutter-x) / -2); }
+  margin-left: calc(var(--bs-gutter-x) / -2);  */
+}
   .row > * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;

@@ -9845,18 +9845,21 @@ a {
 
 /* 커스텀 */
 .black{
-  color: #595959;
+  color: black;
 }
 .social-link{
   /* background-color: black; */
   /* color: white; */
-  /* border-radius: 30px; */
-  /* margin-left: 5px; */
-  /* margin-right: 5px; */
+  /* font-weight: bold; */
+  border: 1px solid black;
+  border-radius: 50px;
   padding: 10px;
+  /* margin-left: 5px; */
+  margin-right: 5px;
 }
 .social-link:hover{
   /* background-color: white; */
+  border: 1px solid tomato;
   color: tomato;
   /* font-weight: bold; */
 }
@@ -9948,12 +9951,12 @@ a {
 .ms-auto>p{
   color: black;
 }
-.ytb{
-  width: 100%;
-  height: 100%;
-}
 .contents-height{
   height: 500px;
+}
+.project-shell{
+  display: flex;
+  flex-direction:row;
 }
 .ytb{
   height: 400px;
