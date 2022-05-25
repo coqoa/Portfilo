@@ -9,30 +9,6 @@
 */
 /* 폰트  */
 @font-face {
-  font-family: 'GmarketSansLight';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'GmarketSansBold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'GangwonEdu_OTFLightA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFLightA.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'NanumSquareRound';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
   font-weight: normal;
@@ -40,50 +16,63 @@
 }
 @font-face {
   font-family: 'NanumBarunpen';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+  font-weight: 300; 
+  font-style: normal; 
+  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumBarunpen.woff2) format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NanumBarunpen';
+  font-weight: 400; 
+  font-style: normal; 
+  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumBarunpen.woff2) format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'YUniverse-L';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-L.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'NanumBarunGothic';
+  font-family: 'YUniverse-B';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
- }
- 
- @font-face {
-  font-family: 'NanumBarunGothic';
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 700;
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
- }
- 
- @font-face {
-  font-family: 'NanumBarunGothic';
+}
+@font-face {
+  font-family: 'IBMPlexSansKR-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 300;
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
- }
- 
- .nanumbarungothic * {
-  font-family: 'NanumBarunGothic', sans-serif;
- }
+}
+@font-face {
+  font-family: 'IBMPlexSansKR-ExtraLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .logo {
   position: absolute;
   z-index: 9; 
   /* ⬇︎ 내가추가 */
   top: 20px; 
-  font-family: 'Gruppo', cursive;
-  font-family: 'Playball', cursive;
 }
-  .logo a {
+.logo a {
+    /* font-family: 'Gruppo', cursive; */
+    /* font-family: 'Playball', cursive; */
+    /* font-size: 45px; */
     color: #ffffff;
     font-weight: 700;
-    font-size: 1.5rem; }
+    font-size: 1.8rem; 
+  }
     .logo a:hover {
       color: rgba(255, 255, 255, 0.9); }
 
@@ -117,7 +106,7 @@
       transform: rotate(-45deg); }
 
 .site-nav {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -147,13 +136,12 @@
         .site-nav .site-navigation .site-menu > li.cta-button a {
           padding: 7px 20px;
           border-radius: 30px;
-          background: #2C80E8;
-          color: #ffffff;
-          border: 2px solid rgba(255, 255, 255, 0.2); }
+          color: #000000;
+        }
           .site-nav .site-navigation .site-menu > li.cta-button a:hover {
-            border: 2px solid white;
-            background: transparent;
-            color: #ffffff; }
+            background-color: #747474;
+            color: #f3f3f3;
+          }
       .site-nav .site-navigation .site-menu > li.active a {
         color: #ffffff; }
     .site-nav .site-navigation .site-menu .has-children {
@@ -419,6 +407,7 @@
   max-width: 1200px; }
 
 html {
+  scroll-behavior: smooth;
   overflow-x: hidden; }
 
 body {
@@ -465,7 +454,7 @@ h1, h2, h3, h4, h5 {
   color: #2C80E8 !important; }
 
 .main-hero .intro-text {
-  background: #2C80E8 url("../images/bg1.jpg") no-repeat;
+  background: #2C80E8 url("../images/bg2.jpg") no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 6rem;
@@ -888,24 +877,18 @@ h1, h2, h3, h4, h5 {
       background: #f8f9fa; }
 
 .form-control {
-  /* border: 2px solid #ccc; */
-  /* background: none; */
-  /* height: 42px;  */
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
+  height: 42px; 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  outline: 0;
 }
-  .form-control:active, .form-control:focus {
+  /* .form-control:active, .form-control:focus {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: #2C80E8; 
-  }
-  .mail-title{
-    /* font-family: "GangwonEdu_OTFLightA"; */
-    /* font-family: 'Cormorant Garamond', serif; */
-    font-family: 'NanumBarunpen', cursive;
-    /* font-family: 'Permanent Marker', cursive; */
-    /* font-family: 'Playball', cursive; */
-    /* font-family: 'Poiret One', cursive; */
-  }
+  } */
   .mail-label{
     color: lightgray;
   }
@@ -932,9 +915,8 @@ h1, h2, h3, h4, h5 {
   }
   .thankyou_message h5{
     color: #f1f1f1;
-    /* font-family: "GangwonEdu_OTFLightA"; */
-    font-family: "GmarketSansLight";
-    font-size: 16px
+    font-family: "GangwonEdu_OTFLightA";
+    font-size: 22px
   }
 
 input[type="password"] {
@@ -1151,10 +1133,10 @@ input[type="password"] {
     transform: translate(-50%, -50%); }
 
 .service .service-contents h3 {
-  font-size: 18px;
+  font-size: 22px;
   color: #000000; }
 .service-contents div {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .service.horizontal .service-icon {
@@ -1537,11 +1519,7 @@ input[type="password"] {
   opacity: .7; }
 
   .section-heading {
-  /* font-family: 'GmarketSansLight'; */
-  /* font-family: 'GmarketSansMedium'; */
-  font-family: 'GmarketSansBold';
-  /* font-family: 'GangwonEdu_OTFLightA'; */
-  font-size: 25px; 
+  font-size: 30px; 
 }
 
 .heading {
@@ -1582,8 +1560,11 @@ input[type="password"] {
     color: rgba(255, 255, 255, 0.8); }
 
 .section-title {
-  color: #2C80E8;
-  font-size: 40px;
+  color: #333;
+  /* font-family: 'GmarketSansBold'; */
+  /* font-family: 'GangwonEdu_OTFLightA';
+  font-weight: 800; */
+  font-size: 30px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
     .section-title {
@@ -1935,9 +1916,10 @@ input[type="password"] {
 
   /* 커스텀 */
   .hello{
-    color: white;
-    font-family: "NanumBarunpen";
+    /* color: white; */
+    font-family: "NanumSquareRound";
     /* font-family: "GangwonEdu_OTFLightA"; */
+    /* font-weight: 300; */
   }
   .face-shell{
     position: relative;
@@ -1953,27 +1935,41 @@ input[type="password"] {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: "NanumBarunpen";
     /* padding: 10px; */
     /* align-items: center; */
     /* border:1px solid red; */
   }
-  h1, h2, h3, h4, h5, p, div, span, ul, li {
-    font-family: 'NanumBarunpen';
+  h1, h2, h3, h4, h5, p, div, span, ul, li, a{
+    font-family: "NanumBarunpen";
+    color: #555;
+    /* font-family: "NanumSquareRound"; */
+    /* font-family: "NanumBarunGothic"; */
+    /* font-family: "GmarketSansLight"; */
+    /* font-family: "GangwonEdu_OTFLightA"; */
+    /* font-family: "YUniverse-L"; */
+    /* font-family: "YUniverse-B"; */
+    /* font-family: "SpoqaHanSansNeo-Light"; */
+    /* font-family: "IBMPlexSansKR-Light"; */
+    /* font-family: "IBMPlexSansKR-ExtraLight"; */
+
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Playball', cursive; */
+    /* font-family: 'Poiret One', cursive; */
   }
   h5, div, p{
-    font-size: 16px;
+    font-size: 18px;
   }
   .font-b{
-    font-family: GmarketSansBold;
+    font-family: "NanumSquareRound";
+    font-weight: 600;
   }
   .font-m{
-    font-family: GmarketSansMedium;
+    font-family: "NanumSquareRound";
+    font-weight: 600;
   }
   .about-me{
     width: 680px;
-    /* text-align: center; */
-    /* border: 1px solid blue; */
   }
 
   .highlight{
@@ -1984,21 +1980,22 @@ input[type="password"] {
   .h-black{
     color: black;
   }
+  .h-light{
+    border-radius: 10px;
+    font-size: 16px;
+    color: tomato;
+    background-color: #fbf3fb;
+    padding: 5px 10px 5px 10px;
+
+  }
 
   .skill-container{
     text-align: center;
-    /* border: 1px solid red; */
   }
   .h-badge{
     border-radius: 7px;
     padding: 3px 6px 3px 6px;
     font-size: 16px;
-    /* font-family: "GangwonEdu_OTFLightA"; */
-    /* font-family: 'Cormorant Garamond', serif; */
-    font-family: 'NanumBarunpen';
-    /* font-family: 'Permanent Marker', cursive; */
-    /* font-family: 'Playball', cursive; */
-    /* font-family: 'Poiret One', cursive; */
   }
   .h-html{
     background-color: #E34F26;
@@ -2046,51 +2043,18 @@ input[type="password"] {
   }
   .project-title{
     width: 100%;
-    /* background-color: blue; */
-    text-align: center;
-  }
-  .icon-shell{
-    width: 100%;
-    /* height: 100%; */
+    font-weight: 400;
     text-align: center;
     font-size: 40px;
-  }
-  .ytb-btn{
-    z-index: 100;
-    color: tomato;
-  }
-  .ytb-btn:hover{
-    /* background-color: tomato; */
-    color: darkgray;
-  }
-  .read-more-container{
-    width: 100%;
-    /* position: relative; */
-    margin-top: 70px;
-    text-align: center;
-    bottom: 0px;
-  }
-  .read-more-container a {
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: white;
-    box-shadow: 1px 1px 5px lightgrey;
-  }
-  .read-more:hover{
-    background-color: lightgray;
   }
   .result {
     display: flex;
     text-align: center;
     justify-content: center;
-    /* border: 1px solid red; */
   }
   .result-title{
     display: flex;
     justify-content: center;
-    /* border: 1px solid blue; */
   }
   .result-contents{
     color: black;
@@ -2103,7 +2067,9 @@ input[type="password"] {
   .result-more a:hover{
     color: tomato;
   }
-  
+  .issue-container{
+    height: 500px;
+  }
   .issue-project{
     font-size: 14px;
   }
@@ -2112,9 +2078,6 @@ input[type="password"] {
     justify-content: center;
   }
   .issue-contents{
-    /* font-family: "NanumSquareRound"; */
-    /* font-family: "NanumBarunpen"; */
-    /* font-family: "NanumBarunGothic"; */
     width: 90%;
     text-align: left;
     color: black;
@@ -2134,5 +2097,46 @@ input[type="password"] {
 .video-wrap object,
 .video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
 .video-wrap{
-  margin-bottom: 20px;
+  margin-top: 30%;
+}
+.read-more-container{
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+  bottom: 0px;
+}
+.read-more-container a {
+  font-weight: 300;
+  font-size: 16px;
+  padding: 13px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 5px lightgrey;
+}
+.read-more:hover{
+  color: tomato;
+}
+#black{
+  color:black
+}
+#black:hover{
+  /* font-family: "NanumSquareRound"; */
+  /* color: #2C80E8; */
+  font-weight: 800;
+  /* background-color: lightgray; */
+}
+.down-btn{
+  position: relative;
+  top: 110px;
+}
+.down-icon{
+  color: #555;
+}
+.service-contents div a{
+  color: #555;
+}
+.service-contents div a:hover{
+  color:black
 }

@@ -53,7 +53,7 @@ font-family: 'Poiret One', cursive; -->
     <div class="site-mobile-menu-body"></div>
   </div>
 
-  <div class="container position-relative">
+  <div class="container position-relative ">
     <!-- <div class="logo">
       <a href="index.html">COQOA<span class="text-warning">.</span> </a>
     </div> -->
@@ -61,7 +61,7 @@ font-family: 'Poiret One', cursive; -->
     <nav class="site-nav">
       
       <div class="logo">
-        <a href="index.html">COQOA<span class="text-warning">.</span> </a>
+        <a href="index.html" id="black">COQOA<span class="text-warning">.</span> </a>
       </div>
       <div class="row align-items-center">
 
@@ -69,33 +69,32 @@ font-family: 'Poiret One', cursive; -->
           
 
           <div class="site-navigation text-center">
-            <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu">
-              <li class="active"><a href="index.html">Home</a></li>
-              <!-- <li class="has-children">
-                <a href="#">Dropdown</a>
-                <ul class="dropdown">
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="#">Menu One</a></li>
-                  <li class="has-children">
-                    <a href="#">Menu Two</a>
-                    <ul class="dropdown">
-                      <li><a href="#">Sub Menu One</a></li>
-                      <li><a href="#">Sub Menu Two</a></li>
-                      <li><a href="#">Sub Menu Three</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Menu Three</a></li>
-                </ul>
-              </li> -->
+            <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu nav-li">
+              <li class="active"><a href="index.html" id="black">Home</a></li>
               
-            
-						
-					
-
-              <li><a href="https://github.com/coqoa" target="_blank" class="black social-link">GitHub</a></li>
-              <li><a href="https://coqoa.tistory.com/" target="_blank" class="black social-link">Blog</a></li>
-              <li><a href="https://www.youtube.com/channel/UCKX7icIXjZvYNBZTmFhlwOQ" target="_blank">Youtube</a></li>
-              <li class="cta-button">	<a href="#email-section" class="black social-link">coqoa28@gmail.com</a></li>
+              <li class="has-children">
+                <a href="#" id="black">Navigation</a>
+                <ul class="dropdown">
+                  <li><a href="#ABOUT-ME">About Me</a></li>
+                  <li class="has-children">
+                    <a href="#PROJECT">Project</a>
+                    <ul class="dropdown">
+                      <li><a href="#PROJECT">TapTapCard</a></li>
+                      <li><a href="#POMOTODO">POMOTODO</a></li>
+                      <li><a href="#JAVADOT">JAVADOT</a></li>
+                    </ul>
+                    <li><a href="#RESULT">Result</a></li>
+                    <li><a href="#TROUBLE-SHOOTING">Trouble Shooting</a></li>
+                    <li><a href="#SEND-EMAIL">Send Email</a></li>
+                  </li>
+                </ul>
+              </li>
+              
+              <li><a href="https://github.com/coqoa" target="_blank" id="black" >GitHub</a></li>
+              <li><a href="https://coqoa.tistory.com/" target="_blank" id="black">Blog</a></li>
+              <li><a href="https://www.youtube.com/channel/UCKX7icIXjZvYNBZTmFhlwOQ" target="_blank" id="black">Youtube</a></li>
+              <li class="cta-button"><a href="#SEND-EMAIL">coqoa28@gmail.com</a></li>
+              <!-- <li class="cta-button"><a href="#mail-section" id="black">coqoa28@gmail.com</a></li> -->
             </ul>
 
             <a href="#" class="burger light ml-auto site-menu-toggle js-menu-toggle d-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
@@ -114,9 +113,12 @@ font-family: 'Poiret One', cursive; -->
       <div class="intro-text">
         <div class="container">
           <div class="heading pt-5" data-aos="fade-up">
-            <h1 class="hello"> 안녕하세요<br>저는 최병민입니다</h1>
+            <h2 class="hello">안녕하세요.<br>저는 최병민입니다.</h2>
             <div class="face-shell"  data-aos="fade-up" data-aos-delay="200">
               <img src="images/coqoa-face.png" style="height: 300px; width: 300px;" alt="Image" class="img-fluid">
+            </div>
+            <div class="down-btn" data-aos="fade-up" data-aos-delay="1000">
+              <a href="#ABOUT-ME"><span class="icon-arrow-down down-icon"></span></a>
             </div>
         </div>
       </div>
@@ -156,20 +158,28 @@ font-family: 'Poiret One', cursive; -->
         </div>
       </div>
     </div> -->
+    <p id="ABOUT-ME"></p>
     <div class="introduce">
       <div class="about-me h-black">
-        제가 가장 중요하게 생각하는 세가지는 <span class="highlight font-m">시간 관리, 문제 해결 능력, 가치</span> 입니다.<br>
-        <br>
-        개발 공부를 하며 <span class="font-m">시간 관리</span>를 위한 서비스가 필요했습니다 <br>
-        시중에 원하는 기능을 모두 지원하는 앱이 없어서 스케줄 관리 웹 앱 'POMOTODO'를 만들었습니다. <br>
-        공부를 하면서 저 스스로도 도움을 많이 받았으며 배포 4개월이 지난현재 약 40명의 이용자에게 서비스를 제공하고 있습니다. <br><br>
-        <span class="font-m">문제 해결 능력</span>을 키우기 위해 항상 '문제의 본질 파악 - 가설 수립 - 검증'하는 과정을 반복했습니다. <br>
-        위 과정을 반복하며 문제에 접근하는 방법, 한번 더 생각해보는 습관, 해결책을 찾는 방법 <br>
-        <br>
-        나를 가장 객관적으로 볼 수 있으며 발전을 위해서 <span class="font-m">가치</span>를 매우 중요하게 여깁니다. <br>
-        제가 지닌 '가치'가 어느정도인지, 어떤 '가치'를 제공할 수 있을지 항상 고민합니다. <br>
-        <br>
-        <span class="font-m">효율 중심의 워크플로우</span>를 지향하며 <span class="font-m">의견</span>을 제시할 수 있는 사람이 되고자 합니다. </p>
+        <p>
+          제가 가장 중요하게 생각하는 세가지는 <span class="highlight font-m">시간 관리, 문제 해결 능력, 가치</span> 입니다.
+        </p>
+        <p>
+          개발 공부를 하며 <span class="font-m">시간 관리</span>를 위한 서비스가 필요했습니다.<br>
+          원하는 기능을 모두 지원하는 서비스가 없어서 스케줄 관리 웹 앱 <span class="h-light">'POMOTODO'</span>를 만들었습니다.<br>
+          공부할 때 많은 도움을 받았고 배포한 지 4개월이 지난현재 약 40명의 이용자에게 서비스를 제공하고 있습니다.<br>
+        </p>
+        <p>
+          <span class="font-m">문제 해결 능력</span>을 키우기 위해 항상 <span class="h-light">'문제의 본질 파악 - 가설 수립 - 검증'</span>하는 과정을 거쳤습니다.<br>
+          위 과정을 반복하며 문제에 접근하는 방법, 한번 더 생각해보는 습관, 해결책을 찾는 방법들을 익힐 수 있었고 프로젝트를 하는데 많은 도움이 되었습니다.<br>
+        </p>
+        <p>
+          나를 가장 객관적으로 볼 수 있으며 발전을 위해서 <span class="font-m">가치</span>를 매우 중요하게 여깁니다. <br>
+          <span class="h-light">제가 지닌 '가치'가 어느정도인지, 어떤 '가치'를 제공할 수 있을지</span> 항상 고민합니다. <br>
+        </p>
+        <p>
+          <span class="font-m">효율 중심의 워크플로우</span>를 지향하며 <span class="font-m">의견</span>을 제시할 수 있는 사람이 되고자 합니다. 
+        </p>
         <br>
         <div class="skill-container">
           <p class="skill"><span class="black">프로젝트 경험이 있는 기술 스택</span> </p>
@@ -232,11 +242,11 @@ font-family: 'Poiret One', cursive; -->
     </div> -->
 
 
-    <div class="cta-wrap overlay" style="background-image: url('images/bg2.jpg')">
+    <div id="PROJECT" class="cta-wrap overlay" style="background-image: url('images/bg2.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center" data-aos="fade-up" data-aos-delay="0">
-            <h2 class="font-b">Project</h2>
+            <h2>PROJECT</h2>
             <!-- <p>Far far away, behind the word mountains, far from the countries .</p>
             <p class="mb-0">
               <a href="#" class="btn btn-primary">Get Started</a>
@@ -248,11 +258,11 @@ font-family: 'Poiret One', cursive; -->
     </div>
         
 
-    <div class="site-section bg-gray">
+    <div id="TAPTAPCARD" class="site-section bg-gray">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto">
-            <h2 class="text-center section-heading font-m project-title">탭탭카드놀이 </h2>    
+            <h2 class="text-center project-title h-black">탭탭카드놀이 </h2>    
             
             <!-- <div class="icon-shell">
               <a href="https://www.youtube.com/watch?v=cEruToGCj98" target="_blank" class="ytb-btn icon-youtube-play">
@@ -263,12 +273,12 @@ font-family: 'Poiret One', cursive; -->
         </div>
         <div class="row">
           <div class="col-lg-4 js-custom-dots order-2">
-            <a href="#" class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
-              <div class="service-icon color-1 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0" >
+              <!-- <div class="service-icon color-1 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
                   <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div>  -->
               <div class="service-contents">
                 <h3>개발 이유 </h3>
                 <div>아기를 키우는 지인들이 많아져서 도움이 될 수 있는 서비스를 만들고자 했습니다.</div>
@@ -279,14 +289,14 @@ font-family: 'Poiret One', cursive; -->
                 <h3>기술 스택 </h3>
                 <div>ReactNative, Firebase ,GitHub</div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="100">
-              <div class="service-icon color-2 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
+              <!-- <div class="service-icon color-2 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div> -->
               <div class="service-contents">
                 <h3>주요 기능</h3>
                 <div>
@@ -298,34 +308,44 @@ font-family: 'Poiret One', cursive; -->
                   - 3단계의 난이도 제공 <br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="200">
-              <div class="service-icon color-3 mb-4">
-                <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
-                  <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
-                </svg>
-              </div> <!-- /.icon -->
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
+              <!-- <div class="service-icon color-3 mb-4">
+                <span class="icon-forward_5"></span>
+              </div> -->
               <div class="service-contents">
                 <h3>핵심 기술</h3>
                 <div>
-                  - Android / iOS 두 가지 플랫폼에 서비스 <br>
+                  - Android / iOS <span class="h-black font-b">두 가지 플랫폼</span>에 서비스 <br>
                   - 모바일 데이터베이스 관리 <br>
                   - 소셜 로그인 기능 <br>
                   - 광고 <br>
-                  - 인앱 결제<br>
+                  - <span class="h-black font-b"> 인앱 결제</span><br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="300">
-              <div class="service-icon color-4 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
+              <div class="service-contents">
+                <h3>이슈 해결</h3>
+                <div>
+                  - <a href="https://coqoa.tistory.com/146?category=952814" target="_blank"> How to fix SSRProvider warning ??</a><br>
+                  - <a href="https://coqoa.tistory.com/155?category=952814" target="_blank"> 안드로이드 상태 바 가림 이슈</a><br>
+                  - <a href="https://coqoa.tistory.com/158?category=952814" target="_blank"> Git 대용량 파일 커밋이 안된다? : Git LFS 사용하기</a><br>
+                  - <a href="https://coqoa.tistory.com/163" target="_blank"> Expo-av 여러 번 클릭 시 소리 멈추는 이슈</a><br>
+                  - <a href="https://coqoa.tistory.com/164" target="_blank"> 아임포트 결제 검증 로직 추가하기</a><br>
+                </div>
+              </div> <!-- /.service-contents-->
+            </span> <!-- /.service -->
+
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
+              <!-- <div class="service-icon color-4 mb-4">
                 <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div> -->
               <div class="service-contents">
                 <h3>개선 사항</h3>
                 <div>
@@ -337,8 +357,8 @@ font-family: 'Poiret One', cursive; -->
                   (코드 최적화, 가독성 향상)</br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
-           
+            </span> <!-- /.service -->
+
           </div>
           
 
@@ -351,7 +371,7 @@ font-family: 'Poiret One', cursive; -->
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe>
             </div>
-            <div class="owl-single-2 no-dots owl-carousel">
+            <!-- <div class="owl-single-2 no-dots owl-carousel">
               <div class="item">
                 <img src="images/img_h_1.jpg" alt="Image" class="img-fluid">
               </div>
@@ -364,12 +384,12 @@ font-family: 'Poiret One', cursive; -->
               <div class="item">
                 <img src="images/img_h_4.jpg" alt="Image" class="img-fluid">
               </div>
-            </div>
+            </div> -->
             
              <div class="read-more-container">
               <a href="https://github.com/coqoa/TapTapCard" target="_blank" class="read-more">탭탭카드놀이 더 보기 <span class="icon-arrow_forward"></span></a>
               <!-- <br><br> -->
-              <a href="https://github.com/coqoa/TapTapCard" target="_blank" class="read-more">탭탭카드놀이 유지 보수 <span class="icon-arrow_forward"></span></a>
+              <a href="https://coqoa.tistory.com/166" target="_blank" class="read-more">탭탭카드놀이 유지 보수 <span class="icon-arrow_forward"></span></a>
             </div>
           </div>
         </div>
@@ -378,31 +398,24 @@ font-family: 'Poiret One', cursive; -->
 
     <p></p>
 
-    <div class="site-section bg-gray">
+    <div id="POMOTODO" class="site-section bg-gray">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto">
-            <h2 class="text-center section-heading font-m project-title">POMOTODO </h2>    
-            
-            <div class="icon-shell">
-              <a href="https://www.youtube.com/watch?v=f_0x8HkxSok" target="_blank" class="ytb-btn icon-youtube-play">
-                <!-- <div class="icon-youtube-play ytb-btn"></div> -->
-              </a>
-            </div>
-
+            <h2 class="text-center project-title h-black">POMOTODO </h2>    
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 js-custom-dots order-2">
-            <a href="#" class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
-              <div class="service-icon color-1 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
+              <!-- <div class="service-icon color-1 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
                   <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div>  -->
               <div class="service-contents">
                 <h3>개발 이유 </h3>
-                <div>효율적인 공부를 위한 스케줄 관리 웹 앱을 만들고 싶었습니다.</div>
+                <div>효율적인 공부를 위한 스케줄 관리 웹 서비스가 필요했습니다.</div>
                 <br>
                 <h3>개발 기간 </h3>
                 <div>2021.08.28 ~ 2022.01.10</div>
@@ -412,14 +425,14 @@ font-family: 'Poiret One', cursive; -->
                 <div>jQuery, NodeJS, Express</div>
                 <div>MongoDB, AWS, GitHub</div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="100">
-              <div class="service-icon color-2 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
+              <!-- <div class="service-icon color-2 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div>  -->
               <div class="service-contents">
                 <h3>주요 기능</h3>
                 <div>
@@ -432,16 +445,16 @@ font-family: 'Poiret One', cursive; -->
                   - 크롬 확장 프로그램 <br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="200">
-              <div class="service-icon color-3 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
+              <!-- <div class="service-icon color-3 mb-4">
                 <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
                   <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div>  -->
               <div class="service-contents">
                 <h3>핵심 기술</h3>
                 <div>
@@ -455,14 +468,25 @@ font-family: 'Poiret One', cursive; -->
                   - 크롬 확장 프로그램 배포 <br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="300">
-              <div class="service-icon color-4 mb-4">
-                <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"/>
-                </svg>
-              </div> <!-- /.icon -->
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
+              <div class="service-contents">
+                <h3>이슈 해결</h3>
+                <div>
+                  - <a href="https://coqoa.tistory.com/116" target="_blank"> jquery sortable 범위인식 문제</a><br>
+                  - <a href="https://coqoa.tistory.com/117" target="_blank"> jquery ui touch punch 무반응</a><br>
+                  - <a href="https://coqoa.tistory.com/118" target="_blank"> 웹워커사용 </a><br>
+                  - <a href="https://coqoa.tistory.com/119" target="_blank"> db조회 및 출력시 발생하는 병목현상</a><br>
+                  - <a href="https://coqoa.tistory.com/121" target="_blank"> 로컬에서는 잘 작동하는데 도메인에서 안됨</a><br>
+                  - <a href="https://coqoa.tistory.com/124" target="_blank"> 조건에 따른 홈페이지 새로고침</a><br>
+                  - <a href="https://coqoa.tistory.com/122" target="_blank"> 502 Bad Gateway</a><br>
+                  - <a href="https://coqoa.tistory.com/126" target="_blank"> 신규가입계정 502 bad gateway issue</a><br>
+                </div>
+              </div> <!-- /.service-contents-->
+            </span> <!-- /.service -->
+
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
                 <h3>개선 사항</h3>
                 <div>
@@ -474,13 +498,23 @@ font-family: 'Poiret One', cursive; -->
                   - 리팩토링 <br>&nbsp&nbsp (코드 최적화, 가독성 향상)
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
            
           </div>
           
 
           <div class="col-lg-8 mb-5 mb-lg-0 project-image-container">
-            <div class="owl-single-2 no-dots owl-carousel">
+            <div class="video-wrap">
+              <iframe
+                width="100%" 
+                src="https://www.youtube.com/embed/f_0x8HkxSok" 
+                title="POMOTODO Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <!-- <div class="owl-single-2 no-dots owl-carousel">
               <div class="item">
                 <img src="images/img_h_1.jpg" alt="Image" class="img-fluid">
               </div>
@@ -493,10 +527,9 @@ font-family: 'Poiret One', cursive; -->
               <div class="item">
                 <img src="images/img_h_4.jpg" alt="Image" class="img-fluid">
               </div>
-            </div>
+            </div> -->
              <div class="read-more-container">
               <a href="https://github.com/coqoa/POMOTODO" target="_blank" class="read-more">POMOTODO 더 보기 <span class="icon-arrow_forward"></span></a>
-              <br><br>
               <a href="https://chrome.google.com/webstore/detail/pomotodo/eiejppffpppelndcmldkpjleiojibopg?hl=ko" target="_blank" class="read-more">POMOTODO 크롬 확장 프로그램 <span class="icon-arrow_forward"></span></a>
             </div>
           </div>
@@ -506,47 +539,39 @@ font-family: 'Poiret One', cursive; -->
 
     <p></p>
 
-    <div class="site-section bg-gray">
+    <div id="JAVADOT" class="site-section bg-gray">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto">
-            <h2 class="text-center section-heading font-m project-title">JAVADOT </h2>    
-            
-            <div class="icon-shell">
-              <a href="https://www.youtube.com/watch?v=V6vTG9MVplU" target="_blank" class="ytb-btn icon-youtube-play">
-                <!-- <div class="icon-youtube-play ytb-btn"></div> -->
-              </a>
-            </div>
-
+            <h2 class="text-center project-title">JAVADOT </h2>    
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 js-custom-dots order-2">
-            <a href="#" class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
-              <div class="service-icon color-1 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
+              <!-- <div class="service-icon color-1 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
                   <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div>  -->
               <div class="service-contents">
                 <h3>개발 이유 </h3>
-                <div>효율적인 공부를 위한 스케줄 관리 웹 앱을 만들고 싶었습니다.</div>
+                <div>첫 프로젝트로 Java GUI를 이용한 게임을 만들고 싶었습니다.</div>
                 <br>
                 <h3>개발 기간 </h3>
                 <div>2021.06.24 ~ 2021.08.23</div>
                 <br>
                 <h3>기술 스택 </h3>
-                <div>Java, JavaFX, SceneBuilder </div>
-                <div>GitHub </div>
+                <div>Java, JavaFX, SceneBuilder, GitHub </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="100">
-              <div class="service-icon color-2 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
+              <!-- <div class="service-icon color-2 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div>  -->
               <div class="service-contents">
                 <h3>주요 기능</h3>
                 <div>
@@ -555,16 +580,16 @@ font-family: 'Poiret One', cursive; -->
 							    - 점프 횟수 카운트 및 조건 처리<br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="200">
-              <div class="service-icon color-3 mb-4">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
+              <!-- <div class="service-icon color-3 mb-4">
                 <svg class="bi bi-briefcase" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
                   <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
                 </svg>
-              </div> <!-- /.icon -->
+              </div> -->
               <div class="service-contents">
                 <h3>핵심 기술</h3>
                 <div>
@@ -574,14 +599,20 @@ font-family: 'Poiret One', cursive; -->
                   - fps 조절<br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
 
-            <a href="#" class="service link horizontal d-flex" data-aos="fade-left" data-aos-delay="300">
-              <div class="service-icon color-4 mb-4">
-                <svg class="bi bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"/>
-                </svg>
-              </div> <!-- /.icon -->
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
+              <div class="service-contents">
+                <h3>이슈 해결</h3>
+                <div>
+                  - <a href="https://coqoa.tistory.com/56?category=952814" target="_blank">javafx의 화면을 이동시키는 문제</a><br>
+                  - <a href="https://coqoa.tistory.com/61?category=952814" target="_blank">화면 이동시 프레임 드랍 현상 해결</a><br>
+                  - <a href="https://coqoa.tistory.com/65?category=952814" target="_blank">시연 및 개발용 단축키 생성</a><br>
+                </div>
+              </div> <!-- /.service-contents-->
+            </span> <!-- /.service -->
+
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
                 <h3>개선 사항</h3>
                 <div>
@@ -591,28 +622,24 @@ font-family: 'Poiret One', cursive; -->
                   - 폰트, 디자인 변경<br>
                 </div>
               </div> <!-- /.service-contents-->
-            </a> <!-- /.service -->
+            </span> <!-- /.service -->
            
           </div>
           
 
           <div class="col-lg-8 mb-5 mb-lg-0 project-image-container">
-            <div class="owl-single-2 no-dots owl-carousel">
-              <div class="item">
-                <img src="images/img_h_1.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="item">
-                <img src="images/img_h_2.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="item">
-                <img src="images/img_h_3.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="item">
-                <img src="images/img_h_4.jpg" alt="Image" class="img-fluid">
-              </div>
+            <div class="video-wrap">
+              <iframe
+                width="100%" 
+                src="https://www.youtube.com/embed/V6vTG9MVplU" 
+                title="JAVADOT Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
             </div>
              <div class="read-more-container">
-              <a href="https://github.com/coqoa/JAVADOT" target="_blank" class="read-more">JAVADOT 더 보기 <span class="icon-arrow_forward"></span></a>
+              <a href="https://github.com/coqoa/JAVADOT_PlatformGame" target="_blank" class="read-more">JAVADOT 더 보기 <span class="icon-arrow_forward"></span></a>
             </div>
           </div>
         </div>
@@ -624,7 +651,7 @@ font-family: 'Poiret One', cursive; -->
 
 
     
-     <div class="site-section bg-light">
+     <div id="RESULT" class="site-section bg-light">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade-up">
@@ -952,7 +979,7 @@ font-family: 'Poiret One', cursive; -->
       </div>
     </div> -->
 
-    <div class="site-section testimonial-section">
+    <div id="TROUBLE-SHOOTING" class="site-section testimonial-section">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="0">
@@ -960,7 +987,7 @@ font-family: 'Poiret One', cursive; -->
             <h2 class="section-title">해결한 이슈</h2>
           </div>
         </div>
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center issue-container" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-7">
 
             <div class="owl-single owl-carousel">
@@ -1137,23 +1164,23 @@ font-family: 'Poiret One', cursive; -->
 
 
 
-    <div class="cta-wrap overlay" style="background-image: url('images/hero_1.jpg')">
+    <div id="SEND-EMAIL" class="cta-wrap overlay" style="background-image: url('images/bg2.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center email-subscribe" data-aos="fade-up" data-aos-delay="0">
             <!-- <h2 class="section-heading text-white mb-4 mail-title">메일 보내기</h2> -->
-            <h2 class="mail-title">Send Mail</h2>
+            <h2>Send Mail</h2>
 
             <!-- <form class="d-flex">
               <input type="email" class="form-control mr-3" placeholder="Enter email address">
               <input type="submit" class="btn btn-primary" value="Subscribe">
             </form> -->
-            <form class="gform form-shell row" method="post" action="https://script.google.com/macros/s/AKfycbx_6bIxTpaykt9IFY3r8h5M-esEHFHX71kn10PY0g/exec">
+            <form class="gform  row" method="post" action="https://script.google.com/macros/s/AKfycbx_6bIxTpaykt9IFY3r8h5M-esEHFHX71kn10PY0g/exec">
 			
               <div class="col-md-6 col-lg-6">
                 <div class="mb-3 form-label">
                   <label for="name" class="mail-label">성함</label>
-                  <input type="text" class="form-control" name="name" id="name" />
+                  <input type="text" class="form-control " name="name" id="name" />
                 </div>
               </div>
               <div class="col-md-6 col-lg-6">
@@ -1169,7 +1196,7 @@ font-family: 'Poiret One', cursive; -->
               <div class="col-md-12 col-lg-12">
                 <div class="mb-3 form-label">
                   <label for="message" class="mail-label">내용</label>
-                  <textarea class="form-control" name="message" id="message" cols="30" rows="7" autocomplete="off"></textarea>
+                  <textarea class="form-control text-area" name="message" id="message" cols="30" rows="7" autocomplete="off"></textarea>
                 </div>
               </div>
         
@@ -1178,8 +1205,8 @@ font-family: 'Poiret One', cursive; -->
                 <button class="mail-btn"><span class="icon-paper-plane"></span></button>
               </div>
               
-              <div style="display:none" class="thankyou_message">
-              <!-- <div  class="thankyou_message"> -->
+              <!-- <div class="thankyou_message"> -->
+              <div style="display: none;" class="thankyou_message">
                 <h5 ><span class="icon-thumb_up"></span> &nbsp 감사합니다 확인 후에 답장드리겠습니다.</h5>
               </div>
             </form>
