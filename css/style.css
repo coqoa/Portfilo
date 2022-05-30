@@ -69,13 +69,13 @@
   color: tomato;
 }
 .logo a {
-    font-family: 'Gruppo', cursive;
-    font-family: "YUniverse-L";
-    font-family: "YUniverse-B";
-    font-family: "SpoqaHanSansNeo-Light";
-    font-family: "IBMPlexSansKR-Light";
-    font-family: "IBMPlexSansKR-ExtraLight";
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Gruppo', cursive; */
+    /* font-family: "YUniverse-L"; */
+    /* font-family: "YUniverse-B"; */
+    /* font-family: "SpoqaHanSansNeo-Light"; */
+    /* font-family: "IBMPlexSansKR-Light"; */
+    /* font-family: "IBMPlexSansKR-ExtraLight"; */
+    /* font-family: 'Cormorant Garamond', serif; */
     font-family: 'Playball', cursive;
     /* font-family: 'Poiret One', cursive; */
 
@@ -1996,7 +1996,7 @@ input[type="password"] {
     color: tomato;
   }
   .h-blue{
-    color: #2C80E8
+    color: #2C80E8;
   }
   .h-dark{
     border-radius: 10px;
