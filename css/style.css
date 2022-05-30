@@ -65,16 +65,27 @@
   /* ⬇︎ 내가추가 */
   top: 20px; 
 }
+.logo-dot{
+  color: tomato;
+}
 .logo a {
-    /* font-family: 'Gruppo', cursive; */
-    /* font-family: 'Playball', cursive; */
-    /* font-size: 45px; */
-    color: #ffffff;
-    font-weight: 700;
+    font-family: 'Gruppo', cursive;
+    font-family: "YUniverse-L";
+    font-family: "YUniverse-B";
+    font-family: "SpoqaHanSansNeo-Light";
+    font-family: "IBMPlexSansKR-Light";
+    font-family: "IBMPlexSansKR-ExtraLight";
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Playball', cursive;
+    /* font-family: 'Poiret One', cursive; */
+
+    color: black;
+    font-weight: 800;
     font-size: 1.8rem; 
-  }
-    .logo a:hover {
-      color: rgba(255, 255, 255, 0.9); }
+}
+  /* .logo a:hover {
+    color: rgba(255, 255, 255, 0.9); } */
+
 
 .site-mobile-menu-close {
   display: block;
@@ -454,11 +465,11 @@ h1, h2, h3, h4, h5 {
   color: #2C80E8 !important; }
 
 .main-hero .intro-text {
-  background: #2C80E8 url("../images/bg2.jpg") no-repeat;
+  background: #2C80E8 url("../images/bg.jpg") no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 6rem;
-  padding-bottom: 14rem; 
+  padding-bottom: 6rem; 
 }
   .main-hero .intro-text.inner-page {
     padding-bottom: 7rem; }
@@ -1915,34 +1926,36 @@ input[type="password"] {
   color: #2C80E8; }
 
   /* 커스텀 */
+  .intro-shell{
+    border: 3px solid blue;
+  }
   .hello{
     /* color: white; */
-    font-family: "NanumSquareRound";
+    /* font-family: "NanumSquareRound"; */
+    /* margin-top: 50px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
     /* font-family: "GangwonEdu_OTFLightA"; */
     /* font-weight: 300; */
   }
   .face-shell{
     position: relative;
-    top: 50px;
-    margin: 0px;
+    /* top: 50px; */
+    margin-top: 25px;
+    /* border: 1px solid green; */
   }
-  .face-container{
-    padding: 0;
-    width: 300px;
-  }
-
   .introduce{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    /* padding: 10px; */
-    /* align-items: center; */
-    /* border:1px solid red; */
+    text-align: left;
+  }
+  .about-me{
+    width: 680px;
   }
   h1, h2, h3, h4, h5, p, div, span, ul, li, a{
-    font-family: "NanumBarunpen";
     color: #555;
-    /* font-family: "NanumSquareRound"; */
+    font-family: "NanumSquareRound";
+    /* font-family: "NanumBarunpen"; */
     /* font-family: "NanumBarunGothic"; */
     /* font-family: "GmarketSansLight"; */
     /* font-family: "GangwonEdu_OTFLightA"; */
@@ -1961,16 +1974,9 @@ input[type="password"] {
     font-size: 18px;
   }
   .font-b{
-    font-family: "NanumSquareRound";
-    font-weight: 600;
+    font-weight: bold;
   }
-  .font-m{
-    font-family: "NanumSquareRound";
-    font-weight: 600;
-  }
-  .about-me{
-    width: 680px;
-  }
+  
 
   .highlight{
     border-radius: 5px;
@@ -1983,14 +1989,27 @@ input[type="password"] {
   .h-light{
     border-radius: 10px;
     font-size: 16px;
-    color: tomato;
     background-color: #fbf3fb;
     padding: 5px 10px 5px 10px;
-
+  }
+  .h-tomato{
+    color: tomato;
+  }
+  .h-blue{
+    color: #2C80E8
+  }
+  .h-dark{
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    background-color: #ededed;
+    padding: 3px 6px 3px 6px;
   }
 
   .skill-container{
     text-align: center;
+    margin-top: 40px;
   }
   .h-badge{
     border-radius: 7px;
@@ -2119,13 +2138,16 @@ input[type="password"] {
   color: tomato;
 }
 #black{
-  color:black
+  color:black;
+  border-radius: 15px;
 }
 #black:hover{
-  /* font-family: "NanumSquareRound"; */
-  /* color: #2C80E8; */
-  font-weight: 800;
-  /* background-color: lightgray; */
+  /* font-weight: 800; */
+  background-color: #555;
+  color:white;
+  /* padding: 3px 5px 3px 5px; */
+  border-radius: 55px;
+  /* text-decoration: none; */
 }
 .down-btn{
   position: relative;
@@ -2135,8 +2157,20 @@ input[type="password"] {
   color: #555;
 }
 .service-contents div a{
-  color: #555;
+  color: rgb(105, 105, 105);
+  text-decoration: underline;
+  text-underline-position: under;
 }
 .service-contents div a:hover{
-  color:black
+  /* color:black; */
+  /* font-weight: 800; */
+  background-color: #555;
+  color:white;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+.service{
+  margin-left: 10px;
 }
