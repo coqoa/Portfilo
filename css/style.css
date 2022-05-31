@@ -103,7 +103,6 @@
     width: 30px; }
     .site-mobile-menu-close > span:before, .site-mobile-menu-close > span:after {
       position: absolute;
-      content: "";
       width: 2px;
       height: 30px;
       background: #ffffff; }
@@ -894,12 +893,12 @@ h1, h2, h3, h4, h5 {
   border: 1px solid rgba(255, 255, 255, 0.2);
   outline: 0;
 }
-  /* .form-control:active, .form-control:focus {
+  .form-control:active, .form-control:focus {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #2C80E8; 
-  } */
+    border-color: white; 
+  }
   .mail-label{
     color: lightgray;
   }
@@ -914,11 +913,10 @@ h1, h2, h3, h4, h5 {
     background-color: white;
     border: 0;
     outline: 0;
-
   }
   .mail-btn:hover{
     color: white;
-    background-color: black;
+    background-color: #999;
   }
   .thankyou_message{
     width: 100%;
@@ -927,7 +925,7 @@ h1, h2, h3, h4, h5 {
   .thankyou_message h5{
     color: #f1f1f1;
     font-family: "GangwonEdu_OTFLightA";
-    font-size: 22px
+    font-size: 18px
   }
 
 input[type="password"] {
@@ -1545,7 +1543,7 @@ input[type="password"] {
   font-size: 13px; }
 
 .cta-wrap {
-  padding: 5rem 0;
+  padding: 3rem 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1953,7 +1951,7 @@ input[type="password"] {
     width: 680px;
   }
   h1, h2, h3, h4, h5, p, div, span, ul, li, a{
-    color: #555;
+    color: black;
     font-family: "NanumSquareRound";
     /* font-family: "NanumBarunpen"; */
     /* font-family: "NanumBarunGothic"; */
@@ -2095,6 +2093,8 @@ input[type="password"] {
   .issue-contents-container{
     display: flex;
     justify-content: center;
+    height: 200px;
+    
   }
   .issue-contents{
     width: 90%;
@@ -2104,9 +2104,14 @@ input[type="password"] {
   }
   .issue-more{
     font-size: 14px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: lightgray;
+    box-shadow: 1px 1px 5px grey;
   }
   .issue-more:hover{
-    color: tomato;
+    background-color: black;
+    color: white;
   }
   /* main.css */
 
@@ -2115,22 +2120,21 @@ input[type="password"] {
 .video-wrap iframe,
 .video-wrap object,
 .video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
-.video-wrap{
-  margin-top: 30%;
-}
+
 .read-more-container{
-  width: 100%;
-  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  bottom: 0px;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
 }
 .read-more-container a {
-  font-weight: 300;
+  width: 250px;
+  margin-top: 10px;
   font-size: 16px;
-  padding: 13px;
-  border-radius: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50px;
   background-color: white;
   box-shadow: 1px 1px 5px lightgrey;
 }
@@ -2173,4 +2177,39 @@ input[type="password"] {
 }
 .service{
   margin-left: 10px;
+}
+.project-contents{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.project-contents-left{
+width: 50%;
+}
+.project-contents-right{
+  width: 50%;
+}
+.social-link-container{
+  width: 100%;
+  margin-top: 20px;
+}
+.social-link-container article{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-link-container button{
+  border: 0;
+  outline: 0;
+  width: 100px;
+  background-color: #555;
+  margin:5px;
+  padding: 5px 0px;
+  border-radius: 55px;
+}
+.social-link-container button:hover{
+  background-color: black;
+}
+.social-link-container a{
+  color:#f1f1f1;
 }

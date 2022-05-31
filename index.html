@@ -73,27 +73,16 @@ font-family: 'Poiret One', cursive; -->
               <li class="active"><a href="index.html" id="black">Home</a></li>
               
               <li class="has-children">
-                <a href="#" id="black">Navigation</a>
+                <a href="#" id="black">Project</a>
                 <ul class="dropdown">
-                  <!-- <li><a href="#ABOUT-ME">About Me</a></li> -->
-                  <li class="has-children">
-                    <a href="#PROJECT">Project</a>
-                    <ul class="dropdown">
-                      <li><a href="#PROJECT">TapTapCard</a></li>
-                      <li><a href="#POMOTODO">POMOTODO</a></li>
-                      <li><a href="#JAVADOT">JAVADOT</a></li>
-                    </ul>
-                    <li><a href="#RESULT">Result</a></li>
-                    <li><a href="#TROUBLE-SHOOTING">Trouble Shooting</a></li>
-                    <li><a href="#SEND-EMAIL">Send Email</a></li>
-                  </li>
+                  <li><a href="#PROJECT">탭탭카드놀이</a></li>
+                  <li><a href="#POMOTODO">POMOTODO</a></li>
+                  <li><a href="#JAVADOT">JAVADOT</a></li>
                 </ul>
               </li>
-              
-              <li><a href="https://github.com/coqoa" target="_blank" id="black" >GitHub</a></li>
-              <li><a href="https://coqoa.tistory.com/" target="_blank" id="black">Blog</a></li>
-              <li><a href="https://www.youtube.com/channel/UCKX7icIXjZvYNBZTmFhlwOQ" target="_blank" id="black">Youtube</a></li>
-              <li class="cta-button"><a href="#SEND-EMAIL">coqoa28@gmail.com</a></li>
+              <li><a href="#RESULT" id="black">Performance</a></li>
+              <li><a href="#TROUBLE-SHOOTING" id="black">Issue Resolve</a></li>
+              <li class="cta-button"><a href="#SEND-EMAIL">Send E-Mail</a></li>
               <!-- <li class="cta-button"><a href="#mail-section" id="black">coqoa28@gmail.com</a></li> -->
             </ul>
 
@@ -117,7 +106,21 @@ font-family: 'Poiret One', cursive; -->
             
             <div class="face-shell"  data-aos="fade-up" data-aos-delay="200">
               <img src="images/coqoa-face.png" alt="Image" class="img-fluid">
-              
+              <div class="social-link-container">
+                <!-- <i class="fa-brands fa-github">github</i>
+                <i class="fa-solid fa-b">blog</i>
+                <i class="fa-brands fa-youtube">youtube</i> -->
+                <article>
+                  <button><a href="https://github.com/coqoa" target="_blank">GitHub</a></button>
+                  <button><a href="https://coqoa.tistory.com/" target="_blank">Blog</a></button>
+                  <button><a href="https://www.youtube.com/channel/UCKX7icIXjZvYNBZTmFhlwOQ" target="_blank">Youtube</a></button>
+                  
+                  
+                  
+                </article>
+
+
+              </div>
               <h2 class="hello">안녕하세요. 저는 최병민입니다.</h2>
               
               <div class="introduce">
@@ -289,58 +292,50 @@ font-family: 'Poiret One', cursive; -->
     </div> -->
 
 
-    <div id="PROJECT" class="cta-wrap overlay" style="background-image: url('images/coding-bg.jpg')">
+    <!-- <div id="PROJECT" class="cta-wrap overlay" style="background-image: url('images/coding-bg.jpg')"> -->
+    <div id="PROJECT" class="cta-wrap overlay" style="background-color: black;">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center" data-aos="fade-up" data-aos-delay="0">
             <h2>PROJECT</h2>
-            <!-- <p>Far far away, behind the word mountains, far from the countries .</p>
-            <p class="mb-0">
-              <a href="#" class="btn btn-primary">Get Started</a>
-            </p> -->
           </div>
-
         </div>
       </div>
     </div>
         
 
-    <div id="TAPTAPCARD" class="site-section bg-gray">
-      <div class="container">
+    <article id="TAPTAPCARD" class="site-section bg-gray">
+      <section class="container">
 
-        <div class="row mb-5">
+        <header class="row mb-5">
           <div class="col-lg-7 mx-auto">
-            <h2 class="text-center project-title h-black">탭탭카드놀이 </h2>    
+            <h2 class="text-center project-title h-black">탭탭카드놀이 </h2>  
+            <h6 class="text-center h-black">2022.02.26 ~ 앱스토어 / 구글 플레이스토어 심사중.</h6>  
           </div>
-        </div>
+        </header>
         
-        <div class="row">
+        <article class="video-wrap">
+          <iframe
+            width="100%" 
+            src="https://www.youtube.com/embed/cEruToGCj98" 
+            title="TAPTAP Video" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>            
+        </article>
 
-          <div class="col-lg-4 js-custom-dots order-2">
+        <main class="project-contents">
+          <section class="project-contents-left">
+
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0" >
-              <!-- <div class="service-icon color-1 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
-                  <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
-                </svg>
-              </div>  -->
               <div class="service-contents">
                 <h3>개발 이유 </h3>
-                <div class="service">아기를 키우는 지인들이 많아져서 도움이 될 수 있는 서비스를 만들고자 했습니다.</div>
-                <br>
-                <h3>개발 기간 </h3>
-                <div class="service">2022.02.26 ~ 앱스토어 / 구글 플레이스토어 심사중.</div>
+                <div class="service">아기를 키우는 지인들이 많아서 도움이 될 수 있는 서비스를 만들고자 했습니다.</div>
                 <br>
                 <h3>기술 스택 </h3>
                 <div class="service">ReactNative, Firebase ,GitHub</div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
-
+              </div>
+            </span>
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
-              <!-- <div class="service-icon color-2 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                </svg>
-              </div> -->
               <div class="service-contents">
                 <h3>주요 기능</h3>
                 <div class="service">
@@ -351,14 +346,12 @@ font-family: 'Poiret One', cursive; -->
                   - 동물카드 한글 / 영어 두 가지 언어로 제공 <br>
                   - 3단계의 난이도 제공 <br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
+          </section>
 
-
+          <section class="project-contents-right">
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
-              <!-- <div class="service-icon color-3 mb-4">
-                <span class="icon-forward_5"></span>
-              </div> -->
               <div class="service-contents">
                 <h3>핵심 기술</h3>
                 <div class="service">
@@ -368,23 +361,8 @@ font-family: 'Poiret One', cursive; -->
                   - 광고 <br>
                   <!-- - <span class="h-dark"> 인앱 결제</span><br> -->
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
-
-            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
-              <div class="service-contents">
-                <h3>개선해야 할 사항</h3>
-                <div class="service">
-                  - 앱 이용 안내 스크린 만들어서 제공<br>
-							    - 태블릿에서 이용할 수 있도록 확장<br>
-							    - 콘텐츠 추가 및 품질 향상<br>
-							    - 성능 개선<br>
-							    - 리팩토링 <br> 
-                  &nbsp&nbsp&nbsp(코드 최적화, 가독성 향상)</br>
-                </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
-
+              </div>
+            </span>
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
                 <h3>이슈 해결</h3>
@@ -395,35 +373,139 @@ font-family: 'Poiret One', cursive; -->
                   - <a href="https://coqoa.tistory.com/163" target="_blank"> Expo-av 여러 번 클릭 시 소리 멈추는 이슈</a><br>
                   <!-- - <a href="https://coqoa.tistory.com/164" target="_blank"> <span class="h-dark">아임포트 결제 검증 로직 추가하기</span></a><br> -->
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
-
-          </div>
-
-          <div class="col-lg-8 mb-5 mb-lg-0 project-image-container">
-            <div class="video-wrap">
-              <iframe
-                width="100%" 
-                src="https://www.youtube.com/embed/cEruToGCj98" 
-                title="TAPTAP Video" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              </iframe>
-            </div>
-              <div class="read-more-container">
-                <a href="https://github.com/coqoa/TapTapCard" target="_blank" class="read-more">탭탭카드놀이 더 보기</a>
-                <a href="https://coqoa.tistory.com/166" target="_blank" class="read-more">탭탭카드놀이 유지 보수</a>
               </div>
-            </div>
-          </div>
-
-        </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="400">
+              <div class="service-contents">
+                <h3>개선해야 할 사항</h3>
+                <div class="service">
+                  - 앱 이용 안내 스크린 만들어서 제공<br>
+                  - 태블릿에서 이용할 수 있도록 확장<br>
+                  - 콘텐츠 추가 및 품질 향상<br>
+                  <!-- - 성능 개선<br> -->
+                  <!-- - 리팩토링 <br>  -->
+                  <!-- &nbsp&nbsp&nbsp(코드 최적화, 가독성 향상)</br> -->
+                </div>
+              </div>
+            </span>
+          </section>
+        </main>
         
-      </div>
-    </div>
+        <footer class="read-more-container">
+          <a href="https://github.com/coqoa/TapTapCard" target="_blank" class="read-more">탭탭카드놀이 더 보기</a>
+          <a href="https://coqoa.tistory.com/166" target="_blank" class="read-more">탭탭카드놀이 유지 보수</a>
+        </footer>
+
+      </section>
+    </article>
 
     <p></p>
 
-    <div id="POMOTODO" class="site-section bg-gray">
+    <article id="POMOTODO" class="site-section bg-gray">
+      <section class="container">
+
+        <header class="row mb-5">
+          <div class="col-lg-7 mx-auto">
+            <h2 class="text-center project-title h-black">POMOTODO </h2>  
+            <h6 class="text-center h-black">2021.08.28 ~ 2022.01.10</h6>  
+          </div>
+        </header>
+        
+        <article class="video-wrap">
+          <iframe
+            width="100%" 
+            src="https://www.youtube.com/embed/f_0x8HkxSok" 
+            title="POMOTODO Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>           
+        </article>
+
+        <main class="project-contents">
+          <section class="project-contents-left">
+
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0" >
+              <div class="service-contents">
+                <h3>개발 이유 </h3>
+                <div class="service">효율적인 공부를 위한 스케줄 관리 웹 서비스가 필요했습니다.</div>
+                <br>
+                <h3>기술 스택 </h3>
+                  <div class="service">
+                    HTML, CSS, JavaScript, jQuery <br>
+                    NodeJS, Express, MongoDB, AWS, GitHub
+                  </div>
+              </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
+              <div class="service-contents">
+                <h3>주요 기능</h3>
+                <div class="service">
+                  - 구글 검색 <br>
+                  - 반복 타이머 <br>
+                  - 투두리스트 / 낫투두리스트 <br>
+                  - 과거 기록 저장 및 열람 <br>
+                  - 오디오 재생 / 정지 <br>
+                  - 크롬 확장 프로그램 <br>
+                </div>
+              </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
+              <div class="service-contents">
+                <h3>핵심 기술</h3>
+                <div class="service">
+                  - UX / UI 중심의 통일성 있는 뉴모피즘 디자인 <br>
+                  - 타이머 설정 시간 저장 <br>
+                  - 회원가입 유효성 검사 / 예외 처리 <br>
+                  - 비밀번호 <span class="h-dark"> 암호화 </span><br>
+                  - DB 관리 및 <span class="h-dark">ajax 통신</span> <br>
+                  - <span class="h-dark">인증</span>&nbsp&nbsp (Session, Passport, Serialize, Deserialize) <br>
+                  - <span class="h-dark">AWS</span>&nbsp&nbsp (EC2, Route53, ACM, ELB) <br>
+                  - <span class="h-dark">크롬 확장 프로그램 배포</span> <br>
+                </div>
+              </div>
+            </span>
+          </section>
+
+          <section class="project-contents-right">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
+              <div class="service-contents">
+                <h3>이슈 해결</h3>
+                <div class="service">
+                  - <a href="https://coqoa.tistory.com/116" target="_blank"> jquery sortable 범위인식 문제</a><br>
+                  - <a href="https://coqoa.tistory.com/117" target="_blank"> jquery ui touch punch 무반응</a><br>
+                  - <a href="https://coqoa.tistory.com/118" target="_blank"> <span class="h-dark">웹워커사용</span> </a><br>
+                  - <a href="https://coqoa.tistory.com/119" target="_blank"> db조회 및 출력시 발생하는 <span class="h-dark">병목현상</span></a><br>
+                  - <a href="https://coqoa.tistory.com/121" target="_blank"> 로컬과 클라우드 서버 <span class="h-dark">Time Zone 불일치</span></a><br>
+                  - <a href="https://coqoa.tistory.com/124" target="_blank"> 조건에 따른 홈페이지 새로고침</a><br>
+                  - <a href="https://coqoa.tistory.com/122" target="_blank"> 502 Bad Gateway</a><br>
+                  - <a href="https://coqoa.tistory.com/126" target="_blank"> 신규가입계정 502 bad gateway issue</a><br>
+                </div>
+              </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="400">
+              <div class="service-contents">
+                <h3>개선해야 할 사항</h3>
+                <div class="service">
+                  - 전날의 기록을 볼 수 있는 모달창 만들기 <br>
+                  - 투두리스트 카운트해서 달력에 표시 <br>
+                  - DB 전달값 단순화하기 <br>
+                  - 비밀번호 찾기 기능 추가 <br>
+                </div>
+              </div>
+            </span>
+          </section>
+        </main>
+        
+        <footer class="read-more-container">
+          <a href="https://github.com/coqoa/POMOTODO" target="_blank" class="read-more">POMOTODO 더 보기</a>
+          <a href="https://chrome.google.com/webstore/detail/pomotodo/eiejppffpppelndcmldkpjleiojibopg?hl=ko" target="_blank" class="read-more">POMOTODO 크롬 확장 프로그램</a>
+        </footer>
+
+      </section>
+    </article>
+
+    <!-- <div id="POMOTODO" class="site-section bg-gray">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto">
@@ -433,11 +515,6 @@ font-family: 'Poiret One', cursive; -->
         <div class="row">
           <div class="col-lg-4 js-custom-dots order-2">
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
-              <!-- <div class="service-icon color-1 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
-                  <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
-                </svg>
-              </div>  -->
               <div class="service-contents">
                 <h3>개발 이유 </h3>
                 <div class="service">효율적인 공부를 위한 스케줄 관리 웹 서비스가 필요했습니다.</div>
@@ -451,35 +528,29 @@ font-family: 'Poiret One', cursive; -->
                   jQuery, NodeJS, Express <br>
                   MongoDB, AWS, GitHub <br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
 
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
-              <!-- <div class="service-icon color-2 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                </svg>
-              </div>  -->
               <div class="service-contents">
                 <h3>주요 기능</h3>
                 <div class="service">
                   - 구글 검색 <br>
                   - 반복 타이머 <br>
-                  - 투두리스트 <br>
-                  - 낫투두리스트 <br>
+                  - 투두리스트 / 낫투두리스트 <br>
                   - 과거 기록 저장 및 열람 <br>
-                  - 오디오 <br>
-                  - 크롬 확장 프로그램 <br>
+                  - 오디오 재생 / 정지 <br>
+                  - 크롬 확장 프로그램 배포<br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
 
 
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
               <div class="service-contents">
                 <h3>핵심 기술</h3>
                 <div class="service">
-                  - UX / UI 중심의 통일성 있는 디자인 <br>
+                  - UX / UI 중심의 통일성 있는 뉴모피즘 디자인 <br>
                   - 타이머 설정 시간 저장 <br>
                   - 회원가입 유효성 검사 / 예외 처리 <br>
                   - 비밀번호 <span class="h-dark"> 암호화 </span><br>
@@ -488,8 +559,8 @@ font-family: 'Poiret One', cursive; -->
                   - <span class="h-dark">AWS</span> <br>&nbsp&nbsp (EC2, Route53, ACM, ELB) <br>
                   - <span class="h-dark">크롬 확장 프로그램 배포</span> <br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
 
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
@@ -502,8 +573,8 @@ font-family: 'Poiret One', cursive; -->
                   - 디자인 변경 <br>
                   - 리팩토링 <br>&nbsp&nbsp (코드 최적화, 가독성 향상)
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
 
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
@@ -518,11 +589,9 @@ font-family: 'Poiret One', cursive; -->
                   - <a href="https://coqoa.tistory.com/122" target="_blank"> 502 Bad Gateway</a><br>
                   - <a href="https://coqoa.tistory.com/126" target="_blank"> 신규가입계정 502 bad gateway issue</a><br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
-           
+              </div>
+            </span>
           </div>
-          
 
           <div class="col-lg-8 mb-5 mb-lg-0 project-image-container">
             <div class="video-wrap">
@@ -542,11 +611,100 @@ font-family: 'Poiret One', cursive; -->
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <p></p>
 
-    <div id="JAVADOT" class="site-section bg-gray">
+    <article id="JAVADOT" class="site-section bg-gray">
+      <section class="container">
+
+        <header class="row mb-5">
+          <div class="col-lg-7 mx-auto">
+            <h2 class="text-center project-title h-black">JAVADOT </h2>  
+            <h6 class="text-center h-black">2021.06.24 ~ 2021.08.23</h6>  
+          </div>
+        </header>
+        
+        <article class="video-wrap">
+          <iframe
+            width="100%" 
+            src="https://www.youtube.com/embed/V6vTG9MVplU" 
+            title="JAVADOT Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>        
+        </article>
+
+        <main class="project-contents">
+          <section class="project-contents-left">
+
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0" >
+              <div class="service-contents">
+                <h3>개발 이유 </h3>
+                <div class="service">첫 프로젝트로 Java GUI를 이용한 게임을 만들고 싶었습니다.</div>
+                <br>
+                <h3>기술 스택 </h3>
+                <div class="service">Java, JavaFX, SceneBuilder, GitHub </div>
+              </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
+              <div class="service-contents">
+                <h3>주요 기능</h3>
+                <div class="service">
+                  - 키보드 입력에 따른 반응<br>
+							    - 블록 간 상호작용<br>
+							    - 점프 횟수 카운트 및 조건 처리<br>
+                </div>
+              </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
+              <div class="service-contents">
+                <h3>핵심 기술</h3>
+                <div class="service">
+                  - 각각 역할에 따른 <span class="h-dark">멀티 스레드</span>구현<br>
+                  - 블록 <span class="h-dark">충돌 구현</span><br>
+                  - 캐릭터 블록의 상태변화<br>
+                  - fps 조절<br>
+                </div>
+              </div>
+            </span>
+          </section>
+
+          <section class="project-contents-right">
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
+              <div class="service-contents">
+                <h3>이슈 해결</h3>
+                <div class="service">
+                  - <a href="https://coqoa.tistory.com/56?category=952814" target="_blank">javafx의 화면을 이동시키는 문제</a><br>
+                  - <a href="https://coqoa.tistory.com/61?category=952814" target="_blank">화면 이동시 <span class="h-dark">프레임 드랍 현상</span> </a><br>
+                  - <a href="https://coqoa.tistory.com/65?category=952814" target="_blank"><span class="h-dark">시연 및 개발용</span> 단축키 생성 </a><br>
+                </div>
+              </div>
+            </span>
+            <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="400">
+              <div class="service-contents">
+                <h3>개선해야 할 사항</h3>
+                <div class="service">
+                  - 성능 개선 : 스테이지 나누기&nbsp&nbsp&nbsp(초기 로딩 시간 감소, 리소스 절약)<br>
+                  - 리팩토링&nbsp&nbsp&nbsp(코드 최적화, 가독성 향상)<br>
+                  - 게임 콘텐츠 늘리기<br>
+                </div>
+              </div>
+            </span>
+          </section>
+        </main>
+        
+        <footer class="read-more-container">
+          <a href="https://github.com/coqoa/JAVADOT_PlatformGame" target="_blank" class="read-more">JAVADOT 더 보기</a>
+        </footer>
+
+      </section>
+    </article>
+
+
+
+    <!-- <div id="JAVADOT" class="site-section bg-gray">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto">
@@ -565,8 +723,8 @@ font-family: 'Poiret One', cursive; -->
                 <br>
                 <h3>기술 스택 </h3>
                 <div class="service">Java, JavaFX, SceneBuilder, GitHub </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
 
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="100">
               <div class="service-contents">
@@ -576,9 +734,8 @@ font-family: 'Poiret One', cursive; -->
 							    - 블록 간 상호작용<br>
 							    - 점프 횟수 카운트 및 조건 처리<br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
-
+              </div>
+            </span>
 
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="200">
               <div class="service-contents">
@@ -589,9 +746,9 @@ font-family: 'Poiret One', cursive; -->
                   - 캐릭터 블록의 상태변화<br>
                   - fps 조절<br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
- 
+              </div>
+            </span>
+
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
                 <h3>개선해야 할 사항</h3>
@@ -601,8 +758,8 @@ font-family: 'Poiret One', cursive; -->
                   - 게임 콘텐츠 늘리기<br>
                   - 폰트, 디자인 변경<br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
            
             <span class="service link horizontal d-flex active" data-aos="fade-left" data-aos-delay="300">
               <div class="service-contents">
@@ -612,8 +769,8 @@ font-family: 'Poiret One', cursive; -->
                   - <a href="https://coqoa.tistory.com/61?category=952814" target="_blank">화면 이동시 <span class="h-dark">프레임 드랍 현상</span> </a><br>
                   - <a href="https://coqoa.tistory.com/65?category=952814" target="_blank"><span class="h-dark">시연 및 개발용</span> 단축키 생성 </a><br>
                 </div>
-              </div> <!-- /.service-contents-->
-            </span> <!-- /.service -->
+              </div>
+            </span>
 
           </div>
           
@@ -635,7 +792,7 @@ font-family: 'Poiret One', cursive; -->
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
@@ -1198,7 +1355,7 @@ font-family: 'Poiret One', cursive; -->
               
               <!-- <div class="thankyou_message"> -->
               <div style="display: none;" class="thankyou_message">
-                <h5 ><span class="icon-thumb_up"></span> &nbsp 감사합니다 확인 후에 답장드리겠습니다.</h5>
+                <h5 ><span class="icon-thumb_up" style="color: white;"></span> &nbsp 감사합니다 확인 후에 답장드리겠습니다.</h5>
               </div>
             </form>
           </div>
@@ -1304,6 +1461,7 @@ font-family: 'Poiret One', cursive; -->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://kit.fontawesome.com/a434aa0deb.js" crossorigin="anonymous"></script>
     <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
     
   </body>
