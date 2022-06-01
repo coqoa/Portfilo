@@ -7,57 +7,8 @@
 * Twitter: https://twitter.com/Untree_co
 * Facebook: https://web.facebook.com/Untree.co/
 */
-/* 폰트  */
-@font-face {
-  font-family: 'NanumSquareRound';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'NanumBarunpen';
-  font-weight: 300; 
-  font-style: normal; 
-  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumBarunpen.woff2) format('woff2');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'NanumBarunpen';
-  font-weight: 400; 
-  font-style: normal; 
-  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumBarunpen.woff2) format('woff2');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'YUniverse-L';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-L.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'YUniverse-B';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SpoqaHanSansNeo-Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansKR-Light';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansKR-ExtraLight';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-ExtraLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
 
 .logo {
   position: absolute;
@@ -70,11 +21,6 @@
 }
 .logo a {
     /* font-family: 'Gruppo', cursive; */
-    /* font-family: "YUniverse-L"; */
-    /* font-family: "YUniverse-B"; */
-    /* font-family: "SpoqaHanSansNeo-Light"; */
-    /* font-family: "IBMPlexSansKR-Light"; */
-    /* font-family: "IBMPlexSansKR-ExtraLight"; */
     /* font-family: 'Cormorant Garamond', serif; */
     font-family: 'Playball', cursive;
     /* font-family: 'Poiret One', cursive; */
@@ -916,7 +862,7 @@ h1, h2, h3, h4, h5 {
   }
   .mail-btn:hover{
     color: white;
-    background-color: #999;
+    background-color: black;
   }
   .thankyou_message{
     width: 100%;
@@ -1928,13 +1874,10 @@ input[type="password"] {
     border: 3px solid blue;
   }
   .hello{
-    /* color: white; */
-    /* font-family: "NanumSquareRound"; */
-    /* margin-top: 50px; */
     margin-top: 30px;
     margin-bottom: 30px;
-    /* font-family: "GangwonEdu_OTFLightA"; */
-    /* font-weight: 300; */
+    font-size: 25px;
+    /* font-weight: 500; */
   }
   .face-shell{
     position: relative;
@@ -1952,27 +1895,20 @@ input[type="password"] {
   }
   h1, h2, h3, h4, h5, p, div, span, ul, li, a{
     color: black;
-    font-family: "NanumSquareRound";
-    /* font-family: "NanumBarunpen"; */
-    /* font-family: "NanumBarunGothic"; */
-    /* font-family: "GmarketSansLight"; */
-    /* font-family: "GangwonEdu_OTFLightA"; */
-    /* font-family: "YUniverse-L"; */
-    /* font-family: "YUniverse-B"; */
-    /* font-family: "SpoqaHanSansNeo-Light"; */
-    /* font-family: "IBMPlexSansKR-Light"; */
-    /* font-family: "IBMPlexSansKR-ExtraLight"; */
-
-    /* font-family: 'Cormorant Garamond', serif; */
-    /* font-family: 'Permanent Marker', cursive; */
-    /* font-family: 'Playball', cursive; */
-    /* font-family: 'Poiret One', cursive; */
+    /* font-family: "NanumSquareRound"; */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
   }
   h5, div, p{
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .font-m{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
   }
   .font-b{
-    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
   }
   
 
@@ -1984,27 +1920,33 @@ input[type="password"] {
   .h-black{
     color: black;
   }
-  .h-light{
-    border-radius: 10px;
-    font-size: 16px;
-    background-color: #fbf3fb;
-    padding: 5px 10px 5px 10px;
+  .h-gray{
+    color: gray;
+    font-weight: 300;
   }
+  
   .h-tomato{
     color: tomato;
   }
   .h-blue{
     color: #2C80E8;
   }
-  .h-dark{
-    border-radius: 10px;
-    font-size: 18px;
-    text-align: center;
-    color: black;
-    background-color: #ededed;
-    padding: 3px 6px 3px 6px;
+  .h-white{
+    color: #f1f1f1;
   }
-
+  .h-dark{
+    text-align: center;
+    font-size: 16px;
+    background-color: #555;
+    padding: 3px 6px 3px 6px;
+    border-radius: 5px;
+  }
+  .h-light{
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fbf3fb;
+    padding: 5px 10px 5px 10px;
+  }
   .skill-container{
     text-align: center;
     margin-top: 40px;
@@ -2081,8 +2023,9 @@ input[type="password"] {
     font-size: 14;
     text-align: right;
   }
-  .result-more a:hover{
-    color: tomato;
+  .result-more a{
+    padding: 3px 6px;
+    border-radius: 3px;
   }
   .issue-container{
     height: 500px;
@@ -2105,13 +2048,14 @@ input[type="password"] {
   .issue-more{
     font-size: 14px;
     padding: 10px;
-    border-radius: 15px;
-    background-color: lightgray;
-    box-shadow: 1px 1px 5px grey;
+    border-radius: 10px;
+    /* background-color: lightgray; */
+    border: 1px solid gray;
+    /* box-shadow: 1px 1px 4px grey; */
   }
   .issue-more:hover{
-    background-color: black;
-    color: white;
+    background-color: #555;
+    color: #f1f1f1;
   }
   /* main.css */
 
@@ -2139,7 +2083,8 @@ input[type="password"] {
   box-shadow: 1px 1px 5px lightgrey;
 }
 .read-more:hover{
-  color: tomato;
+  color: #f1f1f1;
+  background-color: #555;
 }
 #black{
   color:black;
@@ -2161,7 +2106,8 @@ input[type="password"] {
   color: #555;
 }
 .service-contents div a{
-  color: rgb(105, 105, 105);
+  /* color: rgb(105, 105, 105); */
+  color: black;
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -2199,17 +2145,17 @@ width: 50%;
   justify-content: center;
 }
 .social-link-container button{
-  border: 0;
+  font-size: 14px;
+  width: 70px;
+  margin:3px;
   outline: 0;
-  width: 100px;
-  background-color: #555;
-  margin:5px;
+  border: 2px solid #555;
+  background-color: white;
   padding: 5px 0px;
-  border-radius: 55px;
+  border-radius: 10px;
+  color: #555
 }
 .social-link-container button:hover{
-  background-color: black;
-}
-.social-link-container a{
+  background-color: #555;
   color:#f1f1f1;
 }
