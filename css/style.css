@@ -15,6 +15,8 @@
   z-index: 9; 
   /* ⬇︎ 내가추가 */
   top: 20px; 
+  width: 100%;
+  text-align: center;
 }
 .logo-dot{
   color: tomato;
@@ -364,10 +366,12 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
 
 body {
-  background: #ffffff;
+  
+  /* background: gray; */
   line-height: 1.7;
   color: #878787;
   font-weight: 300;
@@ -410,11 +414,12 @@ h1, h2, h3, h4, h5 {
   color: #2C80E8 !important; }
 
 .main-hero .intro-text {
-  background: #2C80E8 url("../images/bg.jpg") no-repeat;
-  background-size: cover;
+  /* background: #2C80E8 url("../images/bg.jpg") no-repeat; */
+  /* background-size: cover; */
   position: relative;
   padding-top: 6rem;
   padding-bottom: 6rem; 
+  /* height: 100%; */
 }
   .main-hero .intro-text.inner-page {
     padding-bottom: 7rem; }
@@ -1879,16 +1884,14 @@ input[type="password"] {
     font-size: 25px;
     /* font-weight: 500; */
   }
-  .face-shell{
-    position: relative;
-    /* top: 50px; */
-    margin-top: 25px;
-    /* border: 1px solid green; */
-  }
   .introduce{
     display: flex;
     justify-content: center;
     text-align: left;
+  }
+  .greetings {
+    font-size: 50px;
+    margin-bottom: 30px;
   }
   .about-me{
     width: 680px;
@@ -1898,6 +1901,9 @@ input[type="password"] {
     /* font-family: "NanumSquareRound"; */
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
+  }
+  h1 {
+
   }
   h5, div, p{
     font-size: 16px;
@@ -1936,10 +1942,10 @@ input[type="password"] {
   }
   .h-dark{
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #555;
     padding: 3px 6px 3px 6px;
-    border-radius: 5px;
+    border-radius: 15px;
   }
   .h-light{
     border-radius: 10px;
@@ -1948,13 +1954,21 @@ input[type="password"] {
     padding: 5px 10px 5px 10px;
   }
   .skill-container{
-    text-align: center;
-    margin-top: 40px;
+    /* text-align: center; */
+    /* margin-top: 40px; */
+    border: 1px solid red;
+  }
+  .skill-title {
+    font-size: 25px;
+  }
+  .skill-container div{
+    border: 1px solid green;
+    margin-bottom: 10px;
   }
   .h-badge{
-    border-radius: 7px;
+    border-radius: 25px;
     padding: 3px 6px 3px 6px;
-    font-size: 16px;
+    font-size: 15px;
   }
   .h-html{
     background-color: #E34F26;
@@ -2135,27 +2149,47 @@ width: 50%;
 .project-contents-right{
   width: 50%;
 }
-.social-link-container{
-  width: 100%;
-  margin-top: 20px;
-}
-.social-link-container article{
+
+.face-shell{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  top: 50px;
+  /* border: 1px solid green; */
+  height: 230px;
+  margin-bottom: 30px;
+
 }
-.social-link-container button{
+.face{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.personal-information {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: left;
+  /* border: 1px solid pink; */
+}
+.personal-information div{
+  padding-left: 10px;
+  font-size: 20px;
+}
+.personal-information ul {
+  list-style: none;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.personal-information li{
   font-size: 14px;
-  width: 70px;
-  margin:3px;
-  outline: 0;
-  border: 2px solid #555;
-  background-color: white;
-  padding: 5px 0px;
-  border-radius: 10px;
-  color: #555
+  margin-bottom: 10px;
 }
-.social-link-container button:hover{
-  background-color: #555;
-  color:#f1f1f1;
+.personal-information a{
+  text-decoration: underline;
+  text-decoration-color: silver;
+}
+.channel {
+  /* display: flex; */
+}
+.channel-item{
+  margin-right: 30px;
 }
