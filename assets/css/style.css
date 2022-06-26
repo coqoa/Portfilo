@@ -192,7 +192,7 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
-    background-color:#68c3a3;
+    background-color:#000;
     border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -203,8 +203,8 @@ h6 {
 .btn-primary.active, 
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #4eb28f;
-    border-color: #4eb28f;
+    /* background-color: #4eb28f;
+    border-color: #4eb28f; */
 }
 
 /*btn-info*/
@@ -649,7 +649,7 @@ SOCIAL ICON
     color:green
 } */
 .short-info .contents{
-    margin-left: 20px;
+    /* margin-left: 10px; */
 }
 
 
@@ -780,9 +780,14 @@ SOCIAL ICON
 .video-intro a:hover {
     color: red;
     background-color: #fff;
+    transform: translateY(-4px);
+    box-shadow: #80008010 0px 0px 0px 0px;
     box-shadow: gray 0px 1px 3px 1px;
 }
-
+.video-intro a:active {
+    transform: translateY(1px);
+    box-shadow: inset #80008010 0px 2px 3px 1px;
+}
 .video-intro h2 {
     margin-top: 30px;
     text-transform: uppercase;
@@ -1104,15 +1109,16 @@ Resume Timeline
 
 /* === Skill Section === */
 .skills-section {
-    background-color: #1a1e23;
-    color: #fff;   
+    /* background-color: #1a1e23;
+    color: #fff;    */
+    background-color: #fff;
+    color: #000;   
 }
 .skills-section .section-title{
-    color: #fff;
     margin-bottom: 110px;  
 }
 .skills-section .section-title h2{
-    color: #fff;
+    color: #000;
 }
 .skill-title {
     width: 25%;
@@ -1605,6 +1611,13 @@ Icon for all respective meta
     display: block;
     text-transform: uppercase;
 }
+.contact-form {
+    text-align: center;
+    padding: 0px 130px 0px 130px;
+    margin-bottom: 30px;
+    border: 3px solid black;
+
+}
 .contact-form strong {
     margin-bottom: 40px;
 }
@@ -1673,7 +1686,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: #000;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1685,7 +1698,7 @@ Icon for all respective meta
 
 .scroll-up a:hover,
 .scroll-up a:active {
-	background-color: rgba(235, 235, 235, .8);
+	background-color: rgba(194, 194, 194, 0.8);
 	color: #222;
 }
 
@@ -1949,7 +1962,7 @@ Icon for all respective meta
 }
 
 /* ---커스텀--- */
-.project-link{
+/* .project-link{
     margin-top: 50px;
     text-align: center;
 }
@@ -1961,15 +1974,19 @@ Icon for all respective meta
     border: 0;
     padding: 7px 14px;
     border-radius: 5px;
-    box-shadow: #d0d0d0 0px 1px 3px 1px;
+
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    font-weight: bold;
 }
 .project-link-btn:hover{
-    background-color: white;
-    color: tomato;
+    background-color: black;
+    color: white;
 }
 .project-link-btn:active{
     box-shadow: inset #d0d0d0 0px 1px 3px 1px;
-}
+} */
 .center{
     text-align: center;
 }
@@ -1994,11 +2011,180 @@ Icon for all respective meta
 .sticky h1 {
     font-size: 30px;
     margin-bottom: 10px;
-    padding: 10px 0px;
+    padding: 23px 0px;
     color: black;
+    height: 80px;
+    
     background-color: #ffffffc3;
 }
 .project-article{
     border-bottom: 2px solid #e1e1e1;
     margin-bottom: 30px;
+}
+.badge-container{
+    margin-bottom: 10px;
+}
+.h-badge{
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+}
+.h-reactnative{
+    background-color: #61DAFB;
+    color: black;
+}
+.h-firebase{
+    background-color: #FFCA28;
+    color: black;
+}
+.h-github{
+    background-color: #7a41ff;
+}
+.h-html{
+    background-color: #E34F26;
+}
+.h-css{
+    background-color: #1572B6;
+}
+.h-javascript{
+    background-color: #F7DF1E;
+    color: black;
+}
+.h-jquery{
+    background-color: #00adef;
+    color: #01416c;
+}
+.h-nodejs{
+    background-color: #339933;
+}
+.h-express{
+    background-color: #f4b218;
+    color: black;
+}
+.h-mongodb{
+    background-color: #47A248;
+}
+.h-aws{
+    background-color: #222e40;
+}
+.h-java{
+    background-color: #b11e29;
+}
+.h-javafx{
+    background-color: orange;
+}
+
+.project-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-link-btn {
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: #d2d2d2;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(55, 55, 55, 0.2);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+.project-link-btn:hover {
+    background-color: #3f3f3f;
+    box-shadow: 0px 15px 20px rgba(71, 71, 71, 0.4);
+    color: #e1e1e1;
+    transform: translateY(-7px);
+}
+.project-link-btn:active {
+    transform: translateY(-4px);
+    
+    box-shadow: 0px 6px 12px rgba(55, 55, 55, 0.2);
+}
+/* .results{
+    background-color: #e1e1e1;
+} */
+.result-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* border: 1px solid green; */
+}
+.result{
+    padding: 25px;
+    width: 32%;
+    border-radius: 10px;
+    background-color: #ffffff30;
+    border: 1px solid #e1e1e150;
+    box-shadow: #28282820 0px 2px 3px 1px;
+}
+.result:hover{
+    border: 1px solid lightgray;
+}
+.result > p {
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+#result1{
+    background-color: #ff000020;
+    box-shadow: #ff000010 0px 2px 3px 1px;
+}
+#result2{
+    background-color: #80008020;
+    box-shadow: #80008010 0px 2px 3px 1px;
+}
+#result3{
+    background-color: #0000ff20;
+    box-shadow: #0000ff10 0px 2px 3px 1px;
+}
+.result-btn-shell{
+    text-align: right;
+}
+.result-more-btn {
+    outline: none;
+    border: 0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    box-shadow: #80008010 0px 2px 3px 1px;
+    transition: all 0.3s ease 0s;
+}
+.result-more-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: #80008010 0px 0px 0px 0px;
+}
+.result-more-btn:active {
+    transform: translateY(1px);
+    box-shadow: inset #80008010 0px 2px 3px 1px;
+}
+.form-group {
+    text-align: left;
+    /* padding-left: 100px; */
+}
+.submit-btn {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: #80008010 0px 0px 0px 0px;
+}
+.submit-btn:active {
+    outline: none;
+    transform: translateY(1px);
+    box-shadow: inset #80008010 0px 2px 3px 1px;
+}
+.thankyou_message{
+    margin: 10px 0px 30px 0px ;
 }

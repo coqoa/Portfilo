@@ -360,34 +360,34 @@ jQuery(function ($) {
                 }
             ];
 
-            var mapOptions = {
-                zoom: 15,
-                scrollwheel: false,
-                center: myLatlng,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                disableDefaultUI: true,
-                styles: styles
-            }
-            var map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
+            // var mapOptions = {
+            //     zoom: 15,
+            //     scrollwheel: false,
+            //     center: myLatlng,
+            //     mapTypeId: google.maps.MapTypeId.ROADMAP,
+            //     disableDefaultUI: true,
+            //     styles: styles
+            // }
+            // var map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
 
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                map: map,
-                animation: google.maps.Animation.DROP,
-                title: 'Hello World!'
-            });
+            // var marker = new google.maps.Marker({
+            //     position: myLatlng,
+            //     map: map,
+            //     animation: google.maps.Animation.DROP,
+            //     title: 'Hello World!'
+            // });
 
-            var contentString = '' +
-                    '' +
-                    '';
+            // var contentString = '' +
+            //         '' +
+            //         '';
 
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
+            // var infowindow = new google.maps.InfoWindow({
+            //     content: contentString
+            // });
 
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
+            // google.maps.event.addListener(marker, 'click', function () {
+            //     infowindow.open(map, marker);
+            // });
 
     }());
 
