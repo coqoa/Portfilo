@@ -904,6 +904,7 @@ Resume Timeline
     float: left;
     background-color: #e5e4e4;
     border-radius: 10px;
+    padding: 0px 6px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
@@ -2066,21 +2067,22 @@ Icon for all respective meta
 }
 
 .project-link-btn {
-    margin-top: 50px;
-    width: 180px;
+
+    width: 150px;
     height: 60px;
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     background-color: #d2d2d2;
-    border-radius: 45px;
+    border-radius: 5px;
     box-shadow: 0px 8px 15px rgba(55, 55, 55, 0.2);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
     border: 1px solid transparent;
+    margin: 50px 5px 0px 5px;
 }
 
 .project-link-btn:hover {
@@ -2088,6 +2090,14 @@ Icon for all respective meta
     box-shadow: 0px 15px 20px rgba(71, 71, 71, 0.4);
     color: #e1e1e1;
     transform: translateY(-7px);
+}
+.tomato-btn:hover{
+    background-color: rgb(255, 123, 99);
+    box-shadow: 0px 15px 20px rgba(255, 123, 123, 0.722);
+}
+.blue-btn:hover{
+    background-color: #678bff;
+    box-shadow: 0px 15px 20px #a0b6ff;
 }
 .project-link-btn:active {
     transform: translateY(-4px);
